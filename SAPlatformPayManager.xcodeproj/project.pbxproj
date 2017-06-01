@@ -207,7 +207,8 @@
 				TargetAttributes = {
 					AB7C204C1EDFB7D9007508E0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
 					};
 					AB7C20651EDFB7D9007508E0 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -424,10 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwwarehouse.platformpaymanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eeaf2666-7404-4e47-a89d-45dd0b48dcb5";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard *";
 			};
 			name = Debug;
 		};
@@ -435,10 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwwarehouse.platformpaymanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eeaf2666-7404-4e47-a89d-45dd0b48dcb5";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard *";
 			};
 			name = Release;
 		};
