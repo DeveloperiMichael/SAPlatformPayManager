@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7C20521EDFB7D9007508E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20511EDFB7D9007508E0 /* main.m */; };
+		AB7C20551EDFB7D9007508E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20541EDFB7D9007508E0 /* AppDelegate.m */; };
+		AB7C20581EDFB7D9007508E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20571EDFB7D9007508E0 /* ViewController.m */; };
+		AB7C205B1EDFB7D9007508E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7C20591EDFB7D9007508E0 /* Main.storyboard */; };
+		AB7C205D1EDFB7D9007508E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7C205C1EDFB7D9007508E0 /* Assets.xcassets */; };
+		AB7C20601EDFB7D9007508E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7C205E1EDFB7D9007508E0 /* LaunchScreen.storyboard */; };
+		AB7C206B1EDFB7D9007508E0 /* SAPlatformPayManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C206A1EDFB7D9007508E0 /* SAPlatformPayManagerTests.m */; };
+		AB7C20761EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20751EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7C20671EDFB7D9007508E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7C20451EDFB7D9007508E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7C204C1EDFB7D9007508E0;
+			remoteInfo = SAPlatformPayManager;
+		};
+		AB7C20721EDFB7D9007508E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7C20451EDFB7D9007508E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7C204C1EDFB7D9007508E0;
+			remoteInfo = SAPlatformPayManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7C204D1EDFB7D9007508E0 /* SAPlatformPayManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPlatformPayManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7C20511EDFB7D9007508E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB7C20531EDFB7D9007508E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB7C20541EDFB7D9007508E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB7C20561EDFB7D9007508E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB7C20571EDFB7D9007508E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB7C205A1EDFB7D9007508E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7C205C1EDFB7D9007508E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7C205F1EDFB7D9007508E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB7C20611EDFB7D9007508E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7C20661EDFB7D9007508E0 /* SAPlatformPayManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPlatformPayManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7C206A1EDFB7D9007508E0 /* SAPlatformPayManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPlatformPayManagerTests.m; sourceTree = "<group>"; };
+		AB7C206C1EDFB7D9007508E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7C20711EDFB7D9007508E0 /* SAPlatformPayManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPlatformPayManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7C20751EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPlatformPayManagerUITests.m; sourceTree = "<group>"; };
+		AB7C20771EDFB7D9007508E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7C204A1EDFB7D9007508E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C20631EDFB7D9007508E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C206E1EDFB7D9007508E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7C20441EDFB7D9007508E0 = {
+			isa = PBXGroup;
+			children = (
+				AB7C204F1EDFB7D9007508E0 /* SAPlatformPayManager */,
+				AB7C20691EDFB7D9007508E0 /* SAPlatformPayManagerTests */,
+				AB7C20741EDFB7D9007508E0 /* SAPlatformPayManagerUITests */,
+				AB7C204E1EDFB7D9007508E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7C204E1EDFB7D9007508E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C204D1EDFB7D9007508E0 /* SAPlatformPayManager.app */,
+				AB7C20661EDFB7D9007508E0 /* SAPlatformPayManagerTests.xctest */,
+				AB7C20711EDFB7D9007508E0 /* SAPlatformPayManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7C204F1EDFB7D9007508E0 /* SAPlatformPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C20531EDFB7D9007508E0 /* AppDelegate.h */,
+				AB7C20541EDFB7D9007508E0 /* AppDelegate.m */,
+				AB7C20561EDFB7D9007508E0 /* ViewController.h */,
+				AB7C20571EDFB7D9007508E0 /* ViewController.m */,
+				AB7C20591EDFB7D9007508E0 /* Main.storyboard */,
+				AB7C205C1EDFB7D9007508E0 /* Assets.xcassets */,
+				AB7C205E1EDFB7D9007508E0 /* LaunchScreen.storyboard */,
+				AB7C20611EDFB7D9007508E0 /* Info.plist */,
+				AB7C20501EDFB7D9007508E0 /* Supporting Files */,
+			);
+			path = SAPlatformPayManager;
+			sourceTree = "<group>";
+		};
+		AB7C20501EDFB7D9007508E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C20511EDFB7D9007508E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB7C20691EDFB7D9007508E0 /* SAPlatformPayManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C206A1EDFB7D9007508E0 /* SAPlatformPayManagerTests.m */,
+				AB7C206C1EDFB7D9007508E0 /* Info.plist */,
+			);
+			path = SAPlatformPayManagerTests;
+			sourceTree = "<group>";
+		};
+		AB7C20741EDFB7D9007508E0 /* SAPlatformPayManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C20751EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m */,
+				AB7C20771EDFB7D9007508E0 /* Info.plist */,
+			);
+			path = SAPlatformPayManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7C204C1EDFB7D9007508E0 /* SAPlatformPayManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7C207A1EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManager" */;
+			buildPhases = (
+				AB7C20491EDFB7D9007508E0 /* Sources */,
+				AB7C204A1EDFB7D9007508E0 /* Frameworks */,
+				AB7C204B1EDFB7D9007508E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPlatformPayManager;
+			productName = SAPlatformPayManager;
+			productReference = AB7C204D1EDFB7D9007508E0 /* SAPlatformPayManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7C20651EDFB7D9007508E0 /* SAPlatformPayManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7C207D1EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManagerTests" */;
+			buildPhases = (
+				AB7C20621EDFB7D9007508E0 /* Sources */,
+				AB7C20631EDFB7D9007508E0 /* Frameworks */,
+				AB7C20641EDFB7D9007508E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7C20681EDFB7D9007508E0 /* PBXTargetDependency */,
+			);
+			name = SAPlatformPayManagerTests;
+			productName = SAPlatformPayManagerTests;
+			productReference = AB7C20661EDFB7D9007508E0 /* SAPlatformPayManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB7C20701EDFB7D9007508E0 /* SAPlatformPayManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7C20801EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManagerUITests" */;
+			buildPhases = (
+				AB7C206D1EDFB7D9007508E0 /* Sources */,
+				AB7C206E1EDFB7D9007508E0 /* Frameworks */,
+				AB7C206F1EDFB7D9007508E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7C20731EDFB7D9007508E0 /* PBXTargetDependency */,
+			);
+			name = SAPlatformPayManagerUITests;
+			productName = SAPlatformPayManagerUITests;
+			productReference = AB7C20711EDFB7D9007508E0 /* SAPlatformPayManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7C20451EDFB7D9007508E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张炯";
+				TargetAttributes = {
+					AB7C204C1EDFB7D9007508E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AB7C20651EDFB7D9007508E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB7C204C1EDFB7D9007508E0;
+					};
+					AB7C20701EDFB7D9007508E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB7C204C1EDFB7D9007508E0;
+					};
+				};
+			};
+			buildConfigurationList = AB7C20481EDFB7D9007508E0 /* Build configuration list for PBXProject "SAPlatformPayManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7C20441EDFB7D9007508E0;
+			productRefGroup = AB7C204E1EDFB7D9007508E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7C204C1EDFB7D9007508E0 /* SAPlatformPayManager */,
+				AB7C20651EDFB7D9007508E0 /* SAPlatformPayManagerTests */,
+				AB7C20701EDFB7D9007508E0 /* SAPlatformPayManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7C204B1EDFB7D9007508E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C20601EDFB7D9007508E0 /* LaunchScreen.storyboard in Resources */,
+				AB7C205D1EDFB7D9007508E0 /* Assets.xcassets in Resources */,
+				AB7C205B1EDFB7D9007508E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C20641EDFB7D9007508E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C206F1EDFB7D9007508E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7C20491EDFB7D9007508E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C20581EDFB7D9007508E0 /* ViewController.m in Sources */,
+				AB7C20551EDFB7D9007508E0 /* AppDelegate.m in Sources */,
+				AB7C20521EDFB7D9007508E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C20621EDFB7D9007508E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C206B1EDFB7D9007508E0 /* SAPlatformPayManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C206D1EDFB7D9007508E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C20761EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7C20681EDFB7D9007508E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7C204C1EDFB7D9007508E0 /* SAPlatformPayManager */;
+			targetProxy = AB7C20671EDFB7D9007508E0 /* PBXContainerItemProxy */;
+		};
+		AB7C20731EDFB7D9007508E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7C204C1EDFB7D9007508E0 /* SAPlatformPayManager */;
+			targetProxy = AB7C20721EDFB7D9007508E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7C20591EDFB7D9007508E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7C205A1EDFB7D9007508E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB7C205E1EDFB7D9007508E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7C205F1EDFB7D9007508E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7C20781EDFB7D9007508E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7C20791EDFB7D9007508E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7C207B1EDFB7D9007508E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB7C207C1EDFB7D9007508E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB7C207E1EDFB7D9007508E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAPlatformPayManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAPlatformPayManager.app/SAPlatformPayManager";
+			};
+			name = Debug;
+		};
+		AB7C207F1EDFB7D9007508E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAPlatformPayManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAPlatformPayManager.app/SAPlatformPayManager";
+			};
+			name = Release;
+		};
+		AB7C20811EDFB7D9007508E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAPlatformPayManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAPlatformPayManager;
+			};
+			name = Debug;
+		};
+		AB7C20821EDFB7D9007508E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAPlatformPayManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformPayManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAPlatformPayManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7C20481EDFB7D9007508E0 /* Build configuration list for PBXProject "SAPlatformPayManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C20781EDFB7D9007508E0 /* Debug */,
+				AB7C20791EDFB7D9007508E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7C207A1EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C207B1EDFB7D9007508E0 /* Debug */,
+				AB7C207C1EDFB7D9007508E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB7C207D1EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C207E1EDFB7D9007508E0 /* Debug */,
+				AB7C207F1EDFB7D9007508E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB7C20801EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C20811EDFB7D9007508E0 /* Debug */,
+				AB7C20821EDFB7D9007508E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7C20451EDFB7D9007508E0 /* Project object */;
+}
