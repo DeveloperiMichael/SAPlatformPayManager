@@ -42,7 +42,6 @@
 		53ABB426F1D9775471D9F1C9 /* libPods-SAPlatformPayManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPlatformPayManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB64E9C31EDFDC47002A1BF5 /* SAPlatformPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPlatformPayManager.h; sourceTree = "<group>"; };
 		AB64E9C41EDFDC47002A1BF5 /* SAPlatformPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPlatformPayManager.m; sourceTree = "<group>"; };
-		AB64E9C81EDFE01E002A1BF5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AB7C204D1EDFB7D9007508E0 /* SAPlatformPayManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPlatformPayManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7C20511EDFB7D9007508E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB7C20531EDFB7D9007508E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		AB7C20711EDFB7D9007508E0 /* SAPlatformPayManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPlatformPayManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7C20751EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPlatformPayManagerUITests.m; sourceTree = "<group>"; };
 		AB7C20771EDFB7D9007508E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF2303D1EDFE4CD0015CEAF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +140,7 @@
 				AB7C205E1EDFB7D9007508E0 /* LaunchScreen.storyboard */,
 				AB7C20611EDFB7D9007508E0 /* Info.plist */,
 				AB7C20501EDFB7D9007508E0 /* Supporting Files */,
-				AB64E9C81EDFE01E002A1BF5 /* PrefixHeader.pch */,
+				ABF2303D1EDFE4CD0015CEAF /* PrefixHeader.pch */,
 			);
 			path = SAPlatformPayManager;
 			sourceTree = "<group>";
@@ -518,7 +518,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XDK267KQ83;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SAPlatformPayManager/PrefixHeader.pch ";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SAPlatformPayManager/PrefixHeader.pch";
 				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -535,7 +536,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XDK267KQ83;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SAPlatformPayManager/PrefixHeader.pch ";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SAPlatformPayManager/PrefixHeader.pch";
 				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

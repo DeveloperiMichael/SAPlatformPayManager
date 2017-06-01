@@ -13,6 +13,25 @@
 
 @interface SAPlatformPayManager()<WXApiDelegate>
 
+
+
+
+/*
+ 支付宝支付结果回调
+ */
+@property (nonatomic, strong)SAPayManagerResponseBlock alipayResponseBlock;
+
+/*
+ 微信支付结果回调
+ */
+
+@property (nonatomic, strong)SAPayManagerResponseBlock WXPayResponseBlock;
+/*
+ 银联支付结果回调
+ */
+@property (nonatomic, strong)SAPayManagerResponseBlock UPPayResponseBlock;
+
+
 @end
 
 @implementation SAPlatformPayManager
@@ -31,7 +50,7 @@
 #pragma mark -------
 #pragma mark -------  支付宝支付
 
-+ (BOOL)alipayHandleOpenURL:(NSURL *)url {
+- (BOOL)alipayHandleOpenURL:(NSURL *)url {
 
     // 支付跳转支付宝钱包进行支付，处理支付结果
     [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
@@ -148,15 +167,15 @@
 {
     return [WXApi isWXAppInstalled];
 }
-+ (BOOL)WXPayRegisterAppWithAppId:(NSString *)appId description:(NSString *)description
++ (BOOL)WXPayRegisterAppWithAppId:(NSString *)appId
 {
-    return [WXApi registerApp:appId withDescription:description];
+    return [WXApi registerApp:appId];
 }
-+ (BOOL)WXPayHandleOpenURL:(NSURL *)url
+- (BOOL)WXPayHandleOpenURL:(NSURL *)url
 {
     return [WXApi handleOpenURL:url delegate:[SAPlatformPayManager sharePayManager]];
 }
-- (void)WXPayWithAppId:(NSString *)appId partnerId:(NSString *)partnerId prepayId:(NSString *)prepayId package:(NSString *)package nonceStr:(NSString *)nonceStr timeStamp:(NSString *)timeStamp sign:(NSString *)sign respBlock:(SAPayManagerResponseBlock)block
+- (void)WXPayWithAppId:(NSString *)appId partnerId:(NSString *)partnerId prepayId:(NSString *)prepayId package:(NSString *)package nonceStr:(NSString *)nonceStr timeStamp:(NSString *)timeStamp sign:(NSString *)sign responseBlock:(SAPayManagerResponseBlock)block
 {     
     self.WXPayResponseBlock = block;
     
@@ -234,7 +253,7 @@
 #pragma mark -------
 #pragma mark -------  银联支付
 
-+ (BOOL)UPPayHandleOpenURL:(NSURL*)url {
+- (BOOL)UPPayHandleOpenURL:(NSURL*)url {
     [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
         
         SAPlatformPayManager *payManager = [SAPlatformPayManager sharePayManager];
@@ -282,7 +301,7 @@
     
     self.UPPayResponseBlock = block;
     //fromScheme是商户自定义协议  mode 是接入模式 "00" 表示线上环境"01"表示测试环境
-    [[UPPaymentControl defaultControl] startPay:serialNo fromScheme:@"com.zhangjiong.payTest.UPPay.scheme" mode:@"00" viewController:viewController];
+    [[UPPaymentControl defaultControl] startPay:serialNo fromScheme:scheme mode:@"00" viewController:viewController];
 }
 
 
@@ -291,15 +310,15 @@
     
     if([url.scheme hasPrefix:@"wx"])//微信
     {
-        return [self WXPayHandleOpenURL:url];
+        return [[SAPlatformPayManager sharePayManager] WXPayHandleOpenURL:url];
     }
     else if([url.host isEqualToString:@"uppayresult"])//银联
     {
-        return [self UPPayHandleOpenURL:url];
+        return [[SAPlatformPayManager sharePayManager] UPPayHandleOpenURL:url];
     }
     else if([url.host isEqualToString:@"safepay"])//支付宝
     {
-        return [self alipayHandleOpenURL:url];
+        return [[SAPlatformPayManager sharePayManager] alipayHandleOpenURL:url];
     }
 
     return YES;

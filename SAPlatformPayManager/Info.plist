@@ -16,8 +16,53 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.wwwarehouse.platformpaymanager.alipay.identifier</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.wwwarehouse.platformpaymanager.alipay.scheme</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.wwwarehouse.platformpaymanager.wxpay.identifier</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wxb4ba3c02aa476ea1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.wwwarehouse.platformpaymanager.uppay.identifier</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.wwwarehouse.platformpaymanager.uppay.scheme</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uppayx3</string>
+		<string>uppayx2</string>
+		<string>uppayx1</string>
+		<string>uppaywallet</string>
+		<string>uppaysdk</string>
+		<string>alipayshare</string>
+		<string>alipay</string>
+		<string>weixin</string>
+		<string>wechat</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

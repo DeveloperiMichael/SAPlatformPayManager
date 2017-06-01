@@ -19,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //注册微信appid 这里需要更换你申请的微信appId
+    [SAPlatformPayManager WXPayRegisterAppWithAppId:@"wxb4ba3c02aa476ea1"];
+    
     return YES;
 }
 

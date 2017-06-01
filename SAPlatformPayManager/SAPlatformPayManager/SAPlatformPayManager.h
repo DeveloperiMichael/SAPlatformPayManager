@@ -8,12 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
-typedef void(^SAPayManagerResponseBlock)(NSInteger responseCode, NSString *responseMsg);
-
-@interface SAPlatformPayManager : NSObject
-
-
 /*
  responseCode:
  0    -    支付成功
@@ -23,6 +17,22 @@ typedef void(^SAPayManagerResponseBlock)(NSInteger responseCode, NSString *respo
  -4   -    设备或系统不支持，或者用户未绑卡(适用于ApplePay)
  -99  -    未知错误
  */
+
+
+//typedef NS_ENUM(NSInteger, SAPayResult) {
+//    SAPayResultSuccessed = 0,
+//    SAPayResultFailed = -1,
+//    SAPayResultCanceled = -2,
+//    SAPayResultAppUninstalled = -3,
+//    SAPayResultDeviceUnSupport = -4,
+//    SAPayResultUnknown = -99,
+//};
+
+typedef void(^SAPayManagerResponseBlock)(NSInteger responseCode, NSString *responseMsg);
+
+@interface SAPlatformPayManager : NSObject
+
+
 
 
 
@@ -44,20 +54,18 @@ typedef void(^SAPayManagerResponseBlock)(NSInteger responseCode, NSString *respo
 + (SAPlatformPayManager *)sharePayManager;
 
 
+/**
+ 支付完成返回app
 
-
-
-//***************支付宝*****************//
-
-/*
- 支付宝支付结果回调
+ @param url 不同支付方式返回不同url
+ @return 返回app结果
  */
-@property (nonatomic, strong)SAPayManagerResponseBlock alipayResponseBlock;
++ (BOOL)handlePayOpenUrl:(NSURL *)url;
 
-/*
- 处理支付宝通过URL启动App时传递回来的数据 AppDelegate
- */
-+ (BOOL)alipayHandleOpenURL:(NSURL *)url;
+
+#pragma mark -
+#pragma mark -   支付宝
+
 
 /*
  发起支付宝支付
@@ -69,24 +77,20 @@ typedef void(^SAPayManagerResponseBlock)(NSInteger responseCode, NSString *respo
 
 
 
-//***************微信*******************//
+#pragma mark -
+#pragma mark -   微信
 
-@property (nonatomic, strong)SAPayManagerResponseBlock WXPayResponseBlock;
 
 /**
  注册微信支付
 
  @param appId 微信开放平台应用appid
- @param description 描述
  @return 是否注册成功
  */
-+ (BOOL)WXPayRegisterAppWithAppId:(NSString *)appId description:(NSString *)description;
++ (BOOL)WXPayRegisterAppWithAppId:(NSString *)appId;
 
 
-/*
- 处理微信通过URL启动App时传递回来的数据 AppDelegate
- */
-+ (BOOL)WXPayHandleOpenURL:(NSURL *)url;
+
 
 
 /**
@@ -101,22 +105,20 @@ typedef void(^SAPayManagerResponseBlock)(NSInteger responseCode, NSString *respo
  @param sign 签名，详见签名生成算法
  @param block 支付结果回调
  */
-- (void)WXPayWithAppId:(NSString *)appId partnerId:(NSString *)partnerId prepayId:(NSString *)prepayId package:(NSString *)package nonceStr:(NSString *)nonceStr timeStamp:(NSString *)timeStamp sign:(NSString *)sign respBlock:(SAPayManagerResponseBlock)block;
+- (void)WXPayWithAppId:(NSString *)appId
+             partnerId:(NSString *)partnerId
+              prepayId:(NSString *)prepayId
+               package:(NSString *)package
+              nonceStr:(NSString *)nonceStr
+             timeStamp:(NSString *)timeStamp
+                  sign:(NSString *)sign
+             responseBlock:(SAPayManagerResponseBlock)block;
 
 
 
 
-//***************银联*****************//
-
-/*
- 银联支付结果回调
- */
-@property (nonatomic, strong)SAPayManagerResponseBlock UPPayResponseBlock;
-
-/*
- 处理银联通过URL启动App时传递回来的数据
- */
-- (BOOL)UPPayHandleOpenURL:(NSURL*)url;
+#pragma mark -
+#pragma mark -   银联
 
 
 
@@ -142,7 +144,7 @@ typedef void(^SAPayManagerResponseBlock)(NSInteger responseCode, NSString *respo
 
 
 
-+ (BOOL)handlePayOpenUrl:(NSURL *)url;
+
 
 
 @end
