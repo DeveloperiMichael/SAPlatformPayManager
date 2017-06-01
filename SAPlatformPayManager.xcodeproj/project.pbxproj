@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB64E9C51EDFDC47002A1BF5 /* SAPlatformPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64E9C41EDFDC47002A1BF5 /* SAPlatformPayManager.m */; };
 		AB7C20521EDFB7D9007508E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20511EDFB7D9007508E0 /* main.m */; };
 		AB7C20551EDFB7D9007508E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20541EDFB7D9007508E0 /* AppDelegate.m */; };
 		AB7C20581EDFB7D9007508E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20571EDFB7D9007508E0 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		AB7C20601EDFB7D9007508E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7C205E1EDFB7D9007508E0 /* LaunchScreen.storyboard */; };
 		AB7C206B1EDFB7D9007508E0 /* SAPlatformPayManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C206A1EDFB7D9007508E0 /* SAPlatformPayManagerTests.m */; };
 		AB7C20761EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C20751EDFB7D9007508E0 /* SAPlatformPayManagerUITests.m */; };
+		CF6DC236AF23242E61CB26F1 /* libPods-SAPlatformPayManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ABB426F1D9775471D9F1C9 /* libPods-SAPlatformPayManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E0EE2283FB2E4F5E666F58 /* Pods-SAPlatformPayManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPlatformPayManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPlatformPayManager/Pods-SAPlatformPayManager.release.xcconfig"; sourceTree = "<group>"; };
+		1062F584EA2BCA59F4D1E2DE /* Pods-SAPlatformPayManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPlatformPayManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPlatformPayManager/Pods-SAPlatformPayManager.debug.xcconfig"; sourceTree = "<group>"; };
+		53ABB426F1D9775471D9F1C9 /* libPods-SAPlatformPayManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPlatformPayManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB64E9C31EDFDC47002A1BF5 /* SAPlatformPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPlatformPayManager.h; sourceTree = "<group>"; };
+		AB64E9C41EDFDC47002A1BF5 /* SAPlatformPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPlatformPayManager.m; sourceTree = "<group>"; };
+		AB64E9C81EDFE01E002A1BF5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AB7C204D1EDFB7D9007508E0 /* SAPlatformPayManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPlatformPayManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7C20511EDFB7D9007508E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB7C20531EDFB7D9007508E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6DC236AF23242E61CB26F1 /* libPods-SAPlatformPayManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384F0003A11AF0E5FB0CA6FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1062F584EA2BCA59F4D1E2DE /* Pods-SAPlatformPayManager.debug.xcconfig */,
+				01E0EE2283FB2E4F5E666F58 /* Pods-SAPlatformPayManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB64E9C21EDFDC47002A1BF5 /* SAPlatformPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB64E9C31EDFDC47002A1BF5 /* SAPlatformPayManager.h */,
+				AB64E9C41EDFDC47002A1BF5 /* SAPlatformPayManager.m */,
+			);
+			path = SAPlatformPayManager;
+			sourceTree = "<group>";
+		};
 		AB7C20441EDFB7D9007508E0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				AB7C20691EDFB7D9007508E0 /* SAPlatformPayManagerTests */,
 				AB7C20741EDFB7D9007508E0 /* SAPlatformPayManagerUITests */,
 				AB7C204E1EDFB7D9007508E0 /* Products */,
+				384F0003A11AF0E5FB0CA6FF /* Pods */,
+				C9B1390BCFEF995A5AA5442F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,7 @@
 		AB7C204F1EDFB7D9007508E0 /* SAPlatformPayManager */ = {
 			isa = PBXGroup;
 			children = (
+				AB64E9C21EDFDC47002A1BF5 /* SAPlatformPayManager */,
 				AB7C20531EDFB7D9007508E0 /* AppDelegate.h */,
 				AB7C20541EDFB7D9007508E0 /* AppDelegate.m */,
 				AB7C20561EDFB7D9007508E0 /* ViewController.h */,
@@ -110,6 +140,7 @@
 				AB7C205E1EDFB7D9007508E0 /* LaunchScreen.storyboard */,
 				AB7C20611EDFB7D9007508E0 /* Info.plist */,
 				AB7C20501EDFB7D9007508E0 /* Supporting Files */,
+				AB64E9C81EDFE01E002A1BF5 /* PrefixHeader.pch */,
 			);
 			path = SAPlatformPayManager;
 			sourceTree = "<group>";
@@ -140,6 +171,14 @@
 			path = SAPlatformPayManagerUITests;
 			sourceTree = "<group>";
 		};
+		C9B1390BCFEF995A5AA5442F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53ABB426F1D9775471D9F1C9 /* libPods-SAPlatformPayManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB7C207A1EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManager" */;
 			buildPhases = (
+				48777931F0D6ED57CA024257 /* [CP] Check Pods Manifest.lock */,
 				AB7C20491EDFB7D9007508E0 /* Sources */,
 				AB7C204A1EDFB7D9007508E0 /* Frameworks */,
 				AB7C204B1EDFB7D9007508E0 /* Resources */,
+				C807658108A902EB64FA69E5 /* [CP] Embed Pods Frameworks */,
+				649024EC8CF58C4D08E1DD0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +311,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48777931F0D6ED57CA024257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		649024EC8CF58C4D08E1DD0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPlatformPayManager/Pods-SAPlatformPayManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C807658108A902EB64FA69E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPlatformPayManager/Pods-SAPlatformPayManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB7C20491EDFB7D9007508E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,6 +367,7 @@
 				AB7C20581EDFB7D9007508E0 /* ViewController.m in Sources */,
 				AB7C20551EDFB7D9007508E0 /* AppDelegate.m in Sources */,
 				AB7C20521EDFB7D9007508E0 /* main.m in Sources */,
+				AB64E9C51EDFDC47002A1BF5 /* SAPlatformPayManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +514,13 @@
 		};
 		AB7C207B1EDFB7D9007508E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1062F584EA2BCA59F4D1E2DE /* Pods-SAPlatformPayManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XDK267KQ83;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SAPlatformPayManager/PrefixHeader.pch ";
 				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wwwarehouse.platformpaymanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +531,13 @@
 		};
 		AB7C207C1EDFB7D9007508E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E0EE2283FB2E4F5E666F58 /* Pods-SAPlatformPayManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XDK267KQ83;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SAPlatformPayManager/PrefixHeader.pch ";
 				INFOPLIST_FILE = SAPlatformPayManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wwwarehouse.platformpaymanager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +611,7 @@
 				AB7C207C1EDFB7D9007508E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB7C207D1EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +620,7 @@
 				AB7C207F1EDFB7D9007508E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB7C20801EDFB7D9007508E0 /* Build configuration list for PBXNativeTarget "SAPlatformPayManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +629,7 @@
 				AB7C20821EDFB7D9007508E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

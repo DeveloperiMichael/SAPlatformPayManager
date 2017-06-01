@@ -1,0 +1,18 @@
+PODS:
+  - DeveloperMichael_AlipaySDK (0.0.1)
+  - UPPaySDK (3.3.6)
+  - WechatOpenSDK (1.7.7)
+
+DEPENDENCIES:
+  - DeveloperMichael_AlipaySDK (~> 0.0.1)
+  - UPPaySDK (~> 3.3.6)
+  - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  DeveloperMichael_AlipaySDK: 320ee955d8636a0d20b13f91809d1aeb852c6d1b
+  UPPaySDK: 452a12dfedd0240b28e9f73cdc5fa9664c81a908
+  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+
+PODFILE CHECKSUM: 5e9ff6f5d8d8d5dd55e86c4af2a928c2f18ef762
+
+COCOAPODS: 1.2.1

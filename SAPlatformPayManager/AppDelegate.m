@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SAPlatformPayManager.h"
+
 
 @interface AppDelegate ()
 
@@ -47,5 +49,36 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+    
+    
+    
+    
+#pragma mark -
+#pragma mark -   支付
+
+//iOS9之前
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    [SAPlatformPayManager handlePayOpenUrl:url];
+    
+    return YES;
+}
+
+//iOS9之后
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    
+    [SAPlatformPayManager handlePayOpenUrl:url];
+    
+    return YES;
+}
+
+
+
+
+
+
+    
+    
 
 @end

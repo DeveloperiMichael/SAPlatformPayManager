@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A6A7AB29485BDDCAF36ACE7EA1E70A /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54648E7835068B1232088B29906A1EBB /* AlipaySDK.bundle */; };
+		CF2AC26545DB2D2B5F3C6BBB03823BC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F973831459A855CD115E1E09C1A35CA9 /* Pods-SAPlatformPayManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B2E3F1F115A323B5181995E8473BC /* Pods-SAPlatformPayManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C23E1A7DC2C98F4CF35BE235AE85111B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0764D98E63D748BE1223A66D0ACBFBD9;
+			remoteInfo = "DeveloperMichael_AlipaySDK-AlipaySDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09DC6B51EB107E7D0C899D061A4C04D8 /* Pods-SAPlatformPayManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAPlatformPayManager.debug.xcconfig"; sourceTree = "<group>"; };
+		2CF811E3E638DA44F7C2D02CA503DE64 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = libUPPaySDK/UPPaymentControl.h; sourceTree = "<group>"; };
+		3FDD094D7D6C72341AC36FAA2D964A66 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.7/WXApiObject.h; sourceTree = "<group>"; };
+		43C818C0F97CF378DB95596E53A3A2F4 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.7/WXApi.h; sourceTree = "<group>"; };
+		54648E7835068B1232088B29906A1EBB /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = DeveloperMichael_AlipaySDK/Classes/AlipaySDK/AlipaySDK.bundle; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D8B715CE6B5AD79301378EA69191611 /* AlipaySDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AlipaySDK.bundle; path = AlipaySDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		804A05C8D3259AA39449078447174380 /* Pods-SAPlatformPayManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAPlatformPayManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B9FA84B3D2B7C43724C569E5C400882 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.7/libWeChatSDK.a; sourceTree = "<group>"; };
+		8E117444481D126B7E6B68EAA4959B61 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = libUPPaySDK/libPaymentControl.a; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDFF9CA24708B7655A5809D8E27BDDB /* ResourceBundle-AlipaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AlipaySDK-Info.plist"; sourceTree = "<group>"; };
+		9E1B2E3F1F115A323B5181995E8473BC /* Pods-SAPlatformPayManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAPlatformPayManager-dummy.m"; sourceTree = "<group>"; };
+		A3C6BEBD1EA011465235F640476AB56F /* Pods-SAPlatformPayManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAPlatformPayManager-resources.sh"; sourceTree = "<group>"; };
+		A8B50446D6DDD1D07CD24EACDE50CA24 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = DeveloperMichael_AlipaySDK/Classes/AlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		BD7E71F0BD2EC87285C67B7837455372 /* Pods-SAPlatformPayManager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAPlatformPayManager-frameworks.sh"; sourceTree = "<group>"; };
+		CE7F37E5F40DBD28940B0683DEBB0404 /* Pods-SAPlatformPayManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAPlatformPayManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD038A2C83189361289F4FA1DA15DD1A /* libPods-SAPlatformPayManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SAPlatformPayManager.a"; path = "libPods-SAPlatformPayManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F573A5E13900756FFC06E23C107D055A /* Pods-SAPlatformPayManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAPlatformPayManager.release.xcconfig"; sourceTree = "<group>"; };
+		FFC32B9FCDE1C13963C8AAA0E13E50E5 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.7/WechatAuthSDK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7981010ED2A273C43625A03E0EDD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2AC26545DB2D2B5F3C6BBB03823BC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4285FACDF04B8F5496EFB7A1334C7698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E2B7A5AF0D243856858DAD0DAD0F7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79255975C48205954C3993555977840E /* DeveloperMichael_AlipaySDK */,
+				4573BDBB09DC9FBAB8A7501A879A1502 /* UPPaySDK */,
+				53FDF3526BFCE247698A56BA1C244051 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36F02855B448B5B541630CA3B4F859F4 /* Pods-SAPlatformPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				804A05C8D3259AA39449078447174380 /* Pods-SAPlatformPayManager-acknowledgements.markdown */,
+				CE7F37E5F40DBD28940B0683DEBB0404 /* Pods-SAPlatformPayManager-acknowledgements.plist */,
+				9E1B2E3F1F115A323B5181995E8473BC /* Pods-SAPlatformPayManager-dummy.m */,
+				BD7E71F0BD2EC87285C67B7837455372 /* Pods-SAPlatformPayManager-frameworks.sh */,
+				A3C6BEBD1EA011465235F640476AB56F /* Pods-SAPlatformPayManager-resources.sh */,
+				09DC6B51EB107E7D0C899D061A4C04D8 /* Pods-SAPlatformPayManager.debug.xcconfig */,
+				F573A5E13900756FFC06E23C107D055A /* Pods-SAPlatformPayManager.release.xcconfig */,
+			);
+			name = "Pods-SAPlatformPayManager";
+			path = "Target Support Files/Pods-SAPlatformPayManager";
+			sourceTree = "<group>";
+		};
+		4573BDBB09DC9FBAB8A7501A879A1502 /* UPPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				2CF811E3E638DA44F7C2D02CA503DE64 /* UPPaymentControl.h */,
+				CB7C19CDF7CE9D6A341FD00DF1172CAC /* Frameworks */,
+			);
+			name = UPPaySDK;
+			path = UPPaySDK;
+			sourceTree = "<group>";
+		};
+		4A8D228B6EDE3315A9EFF000F97CEF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9FA84B3D2B7C43724C569E5C400882 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EA82739804D0D39FB824E0040687869 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DDFF9CA24708B7655A5809D8E27BDDB /* ResourceBundle-AlipaySDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeveloperMichael_AlipaySDK";
+			sourceTree = "<group>";
+		};
+		53FDF3526BFCE247698A56BA1C244051 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FFC32B9FCDE1C13963C8AAA0E13E50E5 /* WechatAuthSDK.h */,
+				43C818C0F97CF378DB95596E53A3A2F4 /* WXApi.h */,
+				3FDD094D7D6C72341AC36FAA2D964A66 /* WXApiObject.h */,
+				4A8D228B6EDE3315A9EFF000F97CEF1C /* Frameworks */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		79255975C48205954C3993555977840E /* DeveloperMichael_AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				C03516F0F67A49B419131339F70316A3 /* Frameworks */,
+				8ACC33779A4344A8E7EF069566FD16AC /* Resources */,
+				4EA82739804D0D39FB824E0040687869 /* Support Files */,
+			);
+			name = DeveloperMichael_AlipaySDK;
+			path = DeveloperMichael_AlipaySDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				34E2B7A5AF0D243856858DAD0DAD0F7B /* Pods */,
+				CD0A5446F244CB215A2D0E476CCD2BAF /* Products */,
+				B8E5AFCC7E26CA834E38D62A48494361 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ACC33779A4344A8E7EF069566FD16AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54648E7835068B1232088B29906A1EBB /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8E5AFCC7E26CA834E38D62A48494361 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F02855B448B5B541630CA3B4F859F4 /* Pods-SAPlatformPayManager */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03516F0F67A49B419131339F70316A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B50446D6DDD1D07CD24EACDE50CA24 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB7C19CDF7CE9D6A341FD00DF1172CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E117444481D126B7E6B68EAA4959B61 /* libPaymentControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD0A5446F244CB215A2D0E476CCD2BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8B715CE6B5AD79301378EA69191611 /* AlipaySDK.bundle */,
+				DD038A2C83189361289F4FA1DA15DD1A /* libPods-SAPlatformPayManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0764D98E63D748BE1223A66D0ACBFBD9 /* DeveloperMichael_AlipaySDK-AlipaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8480703364EADD6D9D4464830477468 /* Build configuration list for PBXNativeTarget "DeveloperMichael_AlipaySDK-AlipaySDK" */;
+			buildPhases = (
+				30A143B108EEFBF3A33A39456B821C64 /* Sources */,
+				4285FACDF04B8F5496EFB7A1334C7698 /* Frameworks */,
+				C96E974C4F8ACA2D8D7C4DF3C8B7D09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeveloperMichael_AlipaySDK-AlipaySDK";
+			productName = "DeveloperMichael_AlipaySDK-AlipaySDK";
+			productReference = 7D8B715CE6B5AD79301378EA69191611 /* AlipaySDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		83704542356118ECA7C1242010A3E983 /* Pods-SAPlatformPayManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C76E9B509D1AEF8D6A86840B717C43 /* Build configuration list for PBXNativeTarget "Pods-SAPlatformPayManager" */;
+			buildPhases = (
+				24E37DFE5015B4C28F90DB572F98571C /* Sources */,
+				2E7981010ED2A273C43625A03E0EDD9C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7101593AA2550E5DD2B016176C97A849 /* PBXTargetDependency */,
+			);
+			name = "Pods-SAPlatformPayManager";
+			productName = "Pods-SAPlatformPayManager";
+			productReference = DD038A2C83189361289F4FA1DA15DD1A /* libPods-SAPlatformPayManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CD0A5446F244CB215A2D0E476CCD2BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0764D98E63D748BE1223A66D0ACBFBD9 /* DeveloperMichael_AlipaySDK-AlipaySDK */,
+				83704542356118ECA7C1242010A3E983 /* Pods-SAPlatformPayManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C96E974C4F8ACA2D8D7C4DF3C8B7D09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A6A7AB29485BDDCAF36ACE7EA1E70A /* AlipaySDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E37DFE5015B4C28F90DB572F98571C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F973831459A855CD115E1E09C1A35CA9 /* Pods-SAPlatformPayManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A143B108EEFBF3A33A39456B821C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7101593AA2550E5DD2B016176C97A849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DeveloperMichael_AlipaySDK-AlipaySDK";
+			target = 0764D98E63D748BE1223A66D0ACBFBD9 /* DeveloperMichael_AlipaySDK-AlipaySDK */;
+			targetProxy = C23E1A7DC2C98F4CF35BE235AE85111B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E742A6E89E4F8923E760FB8F05028BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DeveloperMichael_AlipaySDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DeveloperMichael_AlipaySDK/ResourceBundle-AlipaySDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AlipaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		772C0C0BBCB6C78AF031F8032D59391B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DC6B51EB107E7D0C899D061A4C04D8 /* Pods-SAPlatformPayManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DAF0ABE4F276AC2B9F446326D896D345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DeveloperMichael_AlipaySDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DeveloperMichael_AlipaySDK/ResourceBundle-AlipaySDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AlipaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EFAEFEAD32A525C637552A0C92FF2FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F573A5E13900756FFC06E23C107D055A /* Pods-SAPlatformPayManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C76E9B509D1AEF8D6A86840B717C43 /* Build configuration list for PBXNativeTarget "Pods-SAPlatformPayManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772C0C0BBCB6C78AF031F8032D59391B /* Debug */,
+				EFAEFEAD32A525C637552A0C92FF2FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8480703364EADD6D9D4464830477468 /* Build configuration list for PBXNativeTarget "DeveloperMichael_AlipaySDK-AlipaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E742A6E89E4F8923E760FB8F05028BC /* Debug */,
+				DAF0ABE4F276AC2B9F446326D896D345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
